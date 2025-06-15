@@ -1,0 +1,12 @@
+import plaga.*
+
+describe "Grupo de test para Plaga" {
+
+  const cucaracha = new Cucarachas (poblacion = 10, pesoPromedio = 10)
+
+  test "cucaracha no transmite enfermedades" {
+    
+    assert.equals(false, cucaracha.transmiteEnfermedades())
+  }
+
+}
